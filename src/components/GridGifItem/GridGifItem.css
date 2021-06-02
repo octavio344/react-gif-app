@@ -1,0 +1,27 @@
+
+
+.card {
+    align-content: center;
+    border: gray solid 1.5px;
+    border-radius: 6px;
+    margin: 10px;
+    overflow: hidden;
+    width: max-content;
+    background-color: slategrey;
+}
+
+.card h4{
+    text-align: center;
+    padding: 5px;
+    color: lightblue;
+}
+
+.card img{
+    max-height: 170px;
+}
+
+.card-grid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
